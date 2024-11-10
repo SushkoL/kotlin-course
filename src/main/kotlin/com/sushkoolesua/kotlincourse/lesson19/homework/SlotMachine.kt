@@ -66,9 +66,9 @@ class SlotMachine(
 
     fun turnOnGames () {}
 
-    fun payForSession() {}
+    fun payForGameSession() {}
 
-    protected fun openSafeAndDispenseCash() {}
+    protected fun openSafeAndGiveOutCash() {}
 
     protected fun payoutWinnings() {}
 }
