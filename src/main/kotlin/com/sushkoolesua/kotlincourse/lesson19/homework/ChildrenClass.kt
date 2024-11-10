@@ -66,3 +66,11 @@ class ChildrenClass(
         println("Печать из класса ChildrenClass")
     }
 }
+
+fun main () {
+    val child = ChildrenClass("значение приватного", "значение защищенного", "значение публичного")
+
+    println(child.getAll())
+
+    child.printText()
+}
